@@ -2,8 +2,7 @@ FROM nginx:latest
 
 WORKDIR /usr/src/app
 
-COPY index.html /usr/share/nginx/html
-COPY linux.png /usr/share/nginx/html
+COPY ...
 
 EXPOSE 80 443     
 
