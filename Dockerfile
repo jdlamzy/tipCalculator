@@ -4,6 +4,6 @@ WORKDIR /usr/src/app
 
 COPY ...
 
-EXPOSE 80     
+EXPOSE 5000     
 
 CMD ["nginx", "-g", "daemon off;"]
