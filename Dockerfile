@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM ubuntu:latest
 
 WORKDIR /usr/src/app
 
@@ -6,4 +6,4 @@ COPY ...
 
 EXPOSE 5000     
 
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["ubuntu", "-g", "daemon off;"]
